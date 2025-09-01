@@ -17,7 +17,7 @@ const coding = ["js" , "ruby" , "java" , "python" , "cpp"]
 // coding.forEach(printMe)
 
 coding.forEach((item , index , arr) => {
-    console.log(item , index , arr)
+    //console.log(item , index , arr)
 })
 
 const myCoding = [
@@ -36,5 +36,13 @@ const myCoding = [
 ]
 
 myCoding.forEach( (item) => {
-    console.log(item.languageName);
+    //console.log(item.languageName);
 })
+
+const myNums = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+const newNums = myNums.filter( (num) => num > 4 )
+console.log(newNums);
+
+
+

@@ -17,6 +17,8 @@ for (const [key,value] of map){
 }
 // for of loop cant be used for objects
 
+
+//for in
 const myObj = {
     py: "python",
     cpp: "C++",
@@ -27,7 +29,7 @@ const myObj = {
 for (const key in myObj){
     console.log(`${key} shortcut is for ${myObj[key]}`);
 }
-//for in
+
 const heros = ["batman" , "spidermon" , "ironman"]
 for (const key in heros) {
     //console.log(key)  --> for in return key or index 
